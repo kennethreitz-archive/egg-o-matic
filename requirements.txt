@@ -1,0 +1,6 @@
+certifi==0.0.8
+chardet==1.0.1
+envoy==0.0.2
+heroku==0.1.1
+requests==0.10.1
+wsgiref==0.1.2

@@ -1,11 +1,12 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from flask.ext.script import Manager
 from flask.ext.celery import install_commands as install_celery_commands
 
-from myapp import create_app
+from yoshi import app
 
-app = create_app()
+
 manager = Manager(app)
 
 install_celery_commands(manager)
